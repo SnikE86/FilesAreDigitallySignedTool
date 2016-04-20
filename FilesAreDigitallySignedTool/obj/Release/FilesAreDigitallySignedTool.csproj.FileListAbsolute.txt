@@ -1,0 +1,10 @@
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.exe.config
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Release\FilesAreDigitallySignedTool.ResultsViewer.resources
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Release\FilesAreDigitallySignedTool.csproj.GenerateResource.Cache
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.exe.config
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.exe
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.pdb
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Release\Mono.Security.dll
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Release\FilesAreDigitallySignedTool.exe
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Release\FilesAreDigitallySignedTool.pdb
+F:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Release\FilesAreDigitallySignedTool.csprojResolveAssemblyReference.cache
