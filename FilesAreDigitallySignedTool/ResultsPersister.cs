@@ -4,7 +4,7 @@ using System.IO;
 
 namespace FilesAreDigitallySignedTool
 {
-    class ResultsPersister
+    public class ResultsPersister
     {
         public void WriteToCsvFile(List<FileDetails> fileDetails)
         {

@@ -1,0 +1,9 @@
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Debug\FilesAreDigitallySignedTool.exe.config
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Debug\FilesAreDigitallySignedTool.exe
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Debug\FilesAreDigitallySignedTool.pdb
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Debug\Mono.Security.dll
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\bin\Debug\System.Management.Automation.dll
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Debug\FilesAreDigitallySignedTool.ResultsViewer.resources
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Debug\FilesAreDigitallySignedTool.csproj.GenerateResource.Cache
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Debug\FilesAreDigitallySignedTool.exe
+C:\Source\Trunk\Tools\FilesAreDigitallySignedCheck\FilesAreDigitallySignedTool\obj\Debug\FilesAreDigitallySignedTool.pdb

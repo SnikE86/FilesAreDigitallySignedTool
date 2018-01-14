@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Forms;
+using CommonVersionCheck;
 
 namespace FilesAreDigitallySignedTool
 {
@@ -7,23 +8,30 @@ namespace FilesAreDigitallySignedTool
     {
         static void Main(string[] args)
         {
-            var fileDetails= new List<FileDetails>();
-            var filenamePopulator = new FilenamePopulator();
-            var digitalSignatureChecker = new DigitalSignatureChecker();
-            var resultsViewer = new ResultsViewer();
+            ActiveUpdaterWrapper activeUpdate = new ActiveUpdaterWrapper();
 
-            filenamePopulator.Execute(fileDetails);
-            digitalSignatureChecker.Execute(fileDetails);
-            resultsViewer.SetupResultsForDisplay(fileDetails);
-
-            if (args.Length > 0)
+            if (activeUpdate.UpdateSuccessful("FilesAreDigitallySignedCheck"))
             {
+                var fileDetails = new List<FileDetails>();
+                var filenamePopulator = new FilenamePopulator();
+                var digitalSignatureChecker = new DigitalSignatureChecker();
+                var fileDetailPopulator = new FileDetailPopulator();
                 var persister = new ResultsPersister();
-                persister.WriteToCsvFile(fileDetails);
-            }
-            else
-            {
-                Application.Run(resultsViewer);
+
+                filenamePopulator.Execute(fileDetails);
+                digitalSignatureChecker.Execute(fileDetails);
+                fileDetailPopulator.Execute(fileDetails);
+
+                if (args.Length > 0)
+                {
+                    persister.WriteToCsvFile(fileDetails);
+                }
+                else
+                {
+                    var resultsViewer = new ResultsViewer(persister);
+                    resultsViewer.SetupResultsForDisplay(fileDetails);
+                    Application.Run(resultsViewer);
+                }
             }
         }
     }

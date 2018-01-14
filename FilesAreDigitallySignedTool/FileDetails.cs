@@ -8,6 +8,10 @@ namespace FilesAreDigitallySignedTool
         public bool IsSigned { get; set; }
         public string SignatureVersion { get; set; }
         public string SignatureDate { get; set; }
+        public string FileVersion { get; set; }
+        public string CopyrightDetails { get; set; }
+        public string ProductName { get; set; }
+
 
         public FileDetails()
         {
@@ -16,6 +20,9 @@ namespace FilesAreDigitallySignedTool
             IsSigned = false;
             SignatureDate = "null";
             SignatureVersion = "null";
+            FileVersion = "null";
+            CopyrightDetails = "null";
+            ProductName = "null";
         }
     }
 }

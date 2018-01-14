@@ -61,7 +61,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\CommonClasses\VersionCheck\ActiveUpdater.cs">
+      <Link>ActiveUpdater.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\ActiveUpdaterWrapper.cs">
+      <Link>ActiveUpdaterWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\CurrentVersionProvider.cs">
+      <Link>CurrentVersionProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\IActiveUpdater.cs">
+      <Link>IActiveUpdater.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\IUpdateResolver.cs">
+      <Link>IUpdateResolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\IVersionProvider.cs">
+      <Link>IVersionProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\ServerVersionProvider.cs">
+      <Link>ServerVersionProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\..\CommonClasses\VersionCheck\UpdateResolver.cs">
+      <Link>UpdateResolver.cs</Link>
+    </Compile>
     <Compile Include="DigitalSignatureChecker.cs" />
+    <Compile Include="FileDetailPopulator.cs" />
     <Compile Include="FileDetails.cs" />
     <Compile Include="FilenamePopulator.cs" />
     <Compile Include="Program.cs" />
