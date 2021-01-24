@@ -27,7 +27,7 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 OutputBaseFilename=FilesAreDigitallySignedTool
-SetupIconFile="C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool.ico"
+SetupIconFile="{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool.ico"
 VersionInfoVersion=3.1.0.0
 
 [Languages]
@@ -37,13 +37,13 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\AuthenticodeExaminer.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\AuthenticodeExaminer.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\Mono.Security.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\System.Management.Automation.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\QA.Utils.FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\AuthenticodeExaminer.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\AuthenticodeExaminer.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\FilesAreDigitallySignedTool.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\Mono.Security.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool\bin\Release\System.Management.Automation.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\FilesAreDigitallySignedTool\FilesAreDigitallySignedTool.pdf"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
