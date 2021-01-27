@@ -1,4 +1,4 @@
-<img src="/FilesAreDigitallySignedTool/FilesAreDigitallySignedTool.ico"></img>
+<img src="/FilesAreDigitallySignedTool/FilesAreDigitallySignedTool/FilesAreDigitallySignedTool.ico"></img>
 
 # Files Are Digitally Signed Tool
 
